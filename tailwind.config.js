@@ -4,7 +4,9 @@ module.exports = {
   content: ["./index.html", "./JavaScript/**/*.{html,js}", "./faqs.html"],
   theme: {
     extend: {
-      
+      fontFamily: {
+        mulish: ["Mulish"],
+      },
     },
   },
   plugins: [require("daisyui")],

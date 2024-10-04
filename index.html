@@ -4,11 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Retro-Forum</title>
+    <!-- Style Sheet -->
     <link rel="stylesheet" href="./public/output.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
   </head>
-  <body>
-    <h1>Hello World</h1>
-    <img src="./assets/joinforum.png" alt="">
+  <body class="font-mulish">
+    <header>
+      <!-- Navbar -->
+      <nav class="py-4 container mx-auto">
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <a href="./index.html">
+              <img src="./assets/logo.png" alt="Retro-Forum Logo">
+            </a>
+          </div>
+          <div class="flex-none gap-2">
+            <div class="form-control">
+              <input
+                type="text"
+                placeholder="Search"
+                class="input input-bordered w-24 md:w-auto"
+              />
+            </div>
+            <div class="dropdown dropdown-end">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost btn-circle avatar"
+              >
+                <div class="w-10 rounded-full">
+                  <img
+                    alt="Tailwind CSS Navbar component"
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  />
+                </div>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a class="justify-between">
+                    Profile
+                    <span class="badge">New</span>
+                  </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Categories Section -->
+
+      <!-- Forum Section -->
+
+      <!-- User Section -->
+    </main>
+
+    <!-- Footer Content -->
+    <footer></footer>
 
     <!-- Javascript Source -->
     <script src="./JavaScript/index.js"></script>
